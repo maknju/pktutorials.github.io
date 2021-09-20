@@ -1,0 +1,232 @@
+body{
+ font: 15px/1.5 Arial, Helvetica,sans-serif;
+ padding:0;
+ margin:0;
+ background-color:#f4f4f4;
+}
+
+p{
+ text-align: justify;
+}
+.align-p{
+ text-align: justify;
+}
+/* Global */
+.container{
+ width:80%;
+ margin:auto;
+ overflow:hidden;
+}
+
+ul{
+ margin:0;
+ padding:0;
+}
+
+.button_1{
+ height:38px;
+ background:#43d657;
+ border:0;
+ padding-left: 20px;
+ padding-right:20px;
+ color:#ffffff;
+}
+
+.dark{
+ padding:15px;
+ background:#35424a;
+ color:#ffffff;
+ margin-top:10px;
+ margin-bottom:10px;
+ text-align: justify;
+}
+
+/* Header **/
+header{
+ background:#35424a;
+ color:#ffffff;
+ padding-top:10px;
+ min-height:70px;
+ border-bottom:#43d657 3px solid;
+}
+
+header a{
+ color:#ffffff;
+ text-decoration:none;
+ text-transform: uppercase;
+ font-size:16px;
+}
+
+header li{
+ display:inline;
+ padding: 0 20px 0 20px;
+}
+
+header #branding{
+ float:left;
+}
+
+header #branding h1{
+ margin:0;
+}
+
+header nav{
+ float:right;
+ margin-top:10px;
+}
+
+header .highlight, header .current a{
+ color:#43d657;
+ font-weight:bold;
+}
+
+header a:hover{
+ color:#cccccc;
+ font-weight:bold;
+}
+
+/* Showcase */
+#showcase{
+ min-height:400px;
+ background:url('../images/book.jpg') no-repeat 0 -400px;
+ text-align:center;
+ background-size: cover;
+ opacity: 0.8;
+ color:#080808;
+}
+
+#showcase h1{
+ margin-top:100px;
+ font-size:55px;
+ margin-bottom:10px;
+}
+
+#showcase p{
+ font-size:20px;
+}
+
+/* Newsletter */
+#newsletter{
+ padding:15px;
+ color:#ffffff;
+ background:#35424a
+}
+
+#newsletter h1{
+ float:left;
+}
+
+#newsletter form {
+ float:right;
+ margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+ padding:4px;
+ height:40px;
+ width:250px;
+}
+
+footer{
+ padding:20px;
+ margin-top:20px;
+ color:#ffffff;
+ background-color:#43d657;
+ text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+ header #branding,
+ header nav,
+ header nav li,
+ #newsletter h1,
+ #newsletter form,
+ #boxes .box,
+ article#main-col,
+ aside#sidebar{
+   float:none;
+   text-align:center;
+   width:100%;
+ }
+
+ header{
+   padding-bottom:20px;
+ }
+
+ #showcase h1{
+   margin-top:40px;
+ }
+
+ #newsletter button, .quote button{
+   display:block;
+   width:100%;
+ }
+
+ #newsletter form input[type="email"], .quote input, .quote textarea{
+   width:100%;
+   margin-bottom:5px;
+ }
+}
+
+/*********************** Sub Menu ****************************/
+
+/* The side navigation menu */
+.submenu {
+ margin: 0;
+ padding: 0;
+/* width: 200px; */
+ background-color: #f1f1f1;
+ height: 100%;
+ overflow: auto;
+ float:right;
+ width:30%;
+ margin-top:10px;
+}
+
+/* Sidebar links */
+.submenu a {
+ display: block;
+ color: black;
+ padding: 16px;
+ text-decoration: none;
+}
+
+/* Active/current link */
+.submenu a.active {
+ background-color:#43d657;
+ color: white;
+}
+
+/* Links on mouse-over */
+.submenu a:hover:not(.active) {
+ background-color: #555;
+ color: white;
+}
+
+/* style  */
+
+h3{
+      background-color: rgb(196, 230, 204);
+      width: 48%;
+      padding: 15px;
+      border: 1px solid ;
+}
+h1{
+  text-align: center;
+}
+hr.style2 {
+	border-top: 20px double #8c8b8b;
+  background-color: rgb(75, 212, 94);
+}
+ul.disc {list-style-type: disc;}
+
+table{
+ background-color: rgb(196, 230, 204);
+}
+.one{
+  background-color:  rgb(196, 230, 204);
+  border: 1px solid ;
+  border-color:black;
+}
+/************************ End of Sub Menu **********************/
